@@ -10,10 +10,6 @@ sudo apt install flex gcc make
 
 ```
 proyecto/
-├── vocales/
-│   ├── vocales.l
-│   ├── entrada.txt
-│   └── Makefile
 ├── mayusculas/
 │   ├── mayusculas.l
 │   └── Makefile
@@ -35,30 +31,8 @@ proyecto/
 
 ## Ejercicios
 
-### 1. Contador de Vocales y Consonantes (`vocales/`)
 
-Lee un archivo de texto e imprime el total de vocales y consonantes encontradas. Ignora números y signos de puntuación.
-
-**Entrada:** archivo `entrada.txt`
-```
-Hello World 123!
-```
-
-**Salida esperada:**
-```
-Vocales: 3
-Consonantes: 7
-```
-
-**Compilar y ejecutar:**
-```bash
-cd vocales
-make run
-```
-
----
-
-### 2. Detector de Mayúsculas (`mayusculas/`)
+### 1. Detector de Mayúsculas (`mayusculas/`)
 
 Detecta e imprime las palabras que inician con letra mayúscula.
 
@@ -84,7 +58,7 @@ make run
 
 ---
 
-### 3. Limpiador de Espacios (`espacios/`)
+### 2. Limpiador de Espacios (`espacios/`)
 
 Normaliza múltiples espacios y tabulaciones consecutivas a un solo espacio.
 
@@ -108,7 +82,7 @@ make run
 
 ---
 
-### 4. Validador de IPs (`ips/`)
+### 3. Validador de IPs (`ips/`)
 
 Valida si una dirección IP tiene formato correcto y valores lógicos (cada octeto menor a 256).
 
@@ -136,7 +110,7 @@ make run
 
 ---
 
-### 5. Extractor de Enlaces Markdown (`markdown/`)
+### 4. Extractor de Enlaces Markdown (`markdown/`)
 
 Extrae el texto y la URL de enlaces en formato Markdown `[texto](url)`.
 
@@ -166,7 +140,7 @@ make run
 
 ---
 
-### 6. Analizador de Fechas (`fechas/`)
+### 5. Analizador de Fechas (`fechas/`)
 
 Valida fechas en formato `MM/DD/AAAA`, verificando que el mes, día y año sean lógicamente correctos. Incluye soporte para años bisiestos.
 
